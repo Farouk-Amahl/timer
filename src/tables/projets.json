@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "client": "1",
+    "name": "Lucerna"
+  },
+  {
+    "id": 2,
+    "client": "1",
+    "name": "Letna"
+  },
+  {
+    "id": 3,
+    "client": "1",
+    "name": "Home Office"
+  },
+  {
+    "id": 4,
+    "client": "3",
+    "name": "Bobcat"
+  },
+  {
+    "id": 5,
+    "client": "2",
+    "name": "Recherche"
+  }
+]
