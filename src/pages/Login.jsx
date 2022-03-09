@@ -5,7 +5,7 @@ function Login({setAccess}){
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch(`http://akadi.makak.space/compteur/log.php?log=${log}`)
+    fetch(`https://akadi.makak.space/compteur/log.php?log=${log}`)
       .then(res => {
         return res.json();
       })

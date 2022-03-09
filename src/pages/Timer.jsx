@@ -11,7 +11,7 @@ function Timer(){
 
   const handleStart = () => {
 
-    fetch(`http://akadi.makak.space/compteur/timer.php?cl=${client}&pr=${projet}&nocache=`+ms)
+    fetch(`https://akadi.makak.space/compteur/timer.php?cl=${client}&pr=${projet}&nocache=`+ms)
     /*fetch(`http://localhost/compteur/timer.php?cl=1&pr=1`)*/
       .then(res => {
         return res.json();
@@ -23,7 +23,7 @@ function Timer(){
   }
 
   const handleStop = () => {
-    fetch(`http://akadi.makak.space/compteur/timer.php?id=2&nocache=`+ms)
+    fetch(`https://akadi.makak.space/compteur/timer.php?id=2&nocache=`+ms)
       /*fetch(`http://localhost/compteur/timer.php?id=2`)*/
       .then(res => {
         return res.json();
@@ -47,7 +47,7 @@ function Timer(){
   }, [client]);
 
   useEffect(() => {
-    fetch(`http://akadi.makak.space/compteur/timer.php`)
+    fetch(`https://akadi.makak.space/compteur/timer.php`)
     /*fetch(`http://localhost/compteur/timer.php`)*/
       .then(res => {
         return res.json();
